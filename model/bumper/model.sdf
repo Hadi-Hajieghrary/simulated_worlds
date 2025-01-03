@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="bumper">
+  
+    <pose>0 0 0 0 0 0</pose>
+    
+    <static>true</static>
+    
+    <link name="bumper">
+    
+      <inertial>
+        <mass>4.6875</mass>
+        <inertia> 
+          <ixx>0.13401</ixx>
+          <ixy>0.00073508</ixy>
+          <ixz>0.0021952</ixz>
+          <iyy>2.1116</iyy>
+          <iyz>-0.0083631</iyz> 
+          <izz>2.0676</izz>
+        </inertia>
+      </inertial>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://bumper/bumper.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://bumper/bumper.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <!-- RGBA format: R G B A (each from 0.0 to 1.0) -->
+          <ambient>0.0 0.0 1.0 1.0</ambient>
+          <diffuse>0.0 0.0 1.0 1.0</diffuse>
+          <specular>0.0 0.0 0.0 1.0</specular>
+          <emissive>0.0 0.0 0.0 1.0</emissive>
+        </material>
+      </visual>
+      
+    </link>
+    
+  </model>
+</sdf>

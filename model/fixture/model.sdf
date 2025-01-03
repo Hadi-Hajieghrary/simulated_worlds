@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="fixture">
+  
+    <pose>0 0 0 0 0 0</pose>
+    
+    <static>true</static>
+    
+    <link name="fixture">
+    
+      <inertial>
+        <mass>36.13</mass>
+        <inertia> 
+          <ixx>0.6089</ixx>
+          <ixy>-0.0067776</ixy>					
+          <ixz>-0.0002244</ixz>
+          <iyy>11.439</iyy>
+          <iyz>0.012623</iyz> 
+          <izz>11.944</izz>
+        </inertia>
+      </inertial>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://fixture/fixture.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://fixture/fixture.STL</uri>
+          </mesh>
+        </geometry>
+
+        <material>
+          <!-- RGBA format: R G B A (each from 0.0 to 1.0) -->
+          <ambient>0.3 0.3 0.3 1.0</ambient>
+          <diffuse>0.3 0.3 0.3 1.0</diffuse>
+          <specular>0.0 0.0 0.0 1.0</specular>
+          <emissive>0.0 0.0 0.0 1.0</emissive>
+        </material>
+
+      </visual>
+      
+    </link>
+    
+  </model>
+</sdf>

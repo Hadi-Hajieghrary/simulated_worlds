@@ -1,0 +1,125 @@
+dunnage_0:
+  sdf_path: "package://assembly_world/model/dunnage/model.sdf"
+  pose: {'frame_id': 'world', 'position':{'x': '-4.0', 'y': '-4.0', 'z': '0.0'}, 'orientation':{'R': '0.0', 'P': '0.0', 'Y': '0.0'}}
+
+fixture_00:
+  sdf_path: "package://assembly_world/model/fixture/model.sdf"
+  pose: {'frame_id': 'dunnage_0', 'position':{'x': '1.250', 'y': '0.300', 'z': '0.925'}, 'orientation':{'R': '0.965', 'P': '0.0', 'Y': '0.0'}}
+
+fixture_01:
+  sdf_path: "package://assembly_world/model/fixture/model.sdf"
+  pose: {'frame_id': 'dunnage_0', 'position':{'x': '1.250', 'y': '0.750', 'z': '0.925'}, 'orientation':{'R': '0.965', 'P': '0.0', 'Y': '0.0'}}
+
+fixture_02:
+  sdf_path: "package://assembly_world/model/fixture/model.sdf"
+  pose: {'frame_id': 'dunnage_0', 'position':{'x': '1.250', 'y': '1.200', 'z': '0.925'}, 'orientation':{'R': '0.965', 'P': '0.0', 'Y': '0.0'}}
+
+fixture_03:
+  sdf_path: "package://assembly_world/model/fixture/model.sdf"
+  pose: {'frame_id': 'dunnage_0', 'position':{'x': '1.250', 'y': '1.650', 'z': '0.925'}, 'orientation':{'R': '0.965', 'P': '0.0', 'Y': '0.0'}}
+
+fixture_04:
+  sdf_path: "package://assembly_world/model/fixture/model.sdf"
+  pose: {'frame_id': 'dunnage_0', 'position':{'x': '1.250', 'y': '2.100', 'z': '0.925'}, 'orientation':{'R': '0.965', 'P': '0.0', 'Y': '0.0'}}
+
+bumper_00:
+  sdf_path: "package://assembly_world/model/bumper/model.sdf"
+  pose: {'frame_id': 'dunnage_0', 'position':{'x': '1.250', 'y': '0.472', 'z': '1.166'}, 'orientation':{'R': '0.606', 'P': '0.000', 'Y': '3.141'}}
+
+bumper_01:
+  sdf_path: "package://assembly_world/model/bumper/model.sdf"
+  pose: {'frame_id': 'dunnage_0', 'position':{'x': '1.250', 'y': '0.922', 'z': '1.166'}, 'orientation':{'R': '0.606', 'P': '0.000', 'Y': '3.141'}}
+
+bumper_02:
+  sdf_path: "package://assembly_world/model/bumper/model.sdf"
+  pose: {'frame_id': 'dunnage_0', 'position':{'x': '1.250', 'y': '1.372', 'z': '1.166'}, 'orientation':{'R': '0.606', 'P': '0.000', 'Y': '3.141'}}
+
+bumper_03:
+  sdf_path: "package://assembly_world/model/bumper/model.sdf"
+  pose: {'frame_id': 'dunnage_0', 'position':{'x': '1.250', 'y': '1.822', 'z': '1.166'}, 'orientation':{'R': '0.606', 'P': '0.000', 'Y': '3.141'}}
+
+bumper_04:
+  sdf_path: "package://assembly_world/model/bumper/model.sdf"
+  pose: {'frame_id': 'dunnage_0', 'position':{'x': '1.250', 'y': '2.272', 'z': '1.166'}, 'orientation':{'R': '0.606', 'P': '0.000', 'Y': '3.141'}}
+
+
+dunnage_1:
+  sdf_path: "package://assembly_world/model/dunnage/model.sdf"
+  pose: {'frame_id': 'world', 'position':{'x': '3.0', 'y': '1.0', 'z': '0.0'}, 'orientation':{'R': '0.0', 'P': '0.0', 'Y': '1.57'}}
+
+fixture_10:
+  sdf_path: "package://assembly_world/model/fixture/model.sdf"
+  pose: {'frame_id': 'dunnage_1', 'position':{'x': '1.250', 'y': '0.300', 'z': '0.925'}, 'orientation':{'R': '0.965', 'P': '0.0', 'Y': '0.0'}}
+
+fixture_11:
+  sdf_path: "package://assembly_world/model/fixture/model.sdf"
+  pose: {'frame_id': 'dunnage_1', 'position':{'x': '1.250', 'y': '0.750', 'z': '0.925'}, 'orientation':{'R': '0.965', 'P': '0.0', 'Y': '0.0'}}
+
+fixture_12:
+  sdf_path: "package://assembly_world/model/fixture/model.sdf"
+  pose: {'frame_id': 'dunnage_1', 'position':{'x': '1.250', 'y': '1.200', 'z': '0.925'}, 'orientation':{'R': '0.965', 'P': '0.0', 'Y': '0.0'}}
+
+fixture_13:
+  sdf_path: "package://assembly_world/model/fixture/model.sdf"
+  pose: {'frame_id': 'dunnage_1', 'position':{'x': '1.250', 'y': '1.650', 'z': '0.925'}, 'orientation':{'R': '0.965', 'P': '0.0', 'Y': '0.0'}}
+
+fixture_14:
+  sdf_path: "package://assembly_world/model/fixture/model.sdf"
+  pose: {'frame_id': 'dunnage_1', 'position':{'x': '1.250', 'y': '2.100', 'z': '0.925'}, 'orientation':{'R': '0.965', 'P': '0.0', 'Y': '0.0'}}
+
+bumper_10:
+  sdf_path: "package://assembly_world/model/bumper/model.sdf"
+  pose: {'frame_id': 'dunnage_1', 'position':{'x': '1.250', 'y': '0.472', 'z': '1.166'}, 'orientation':{'R': '0.606', 'P': '0.000', 'Y': '3.141'}}
+
+bumper_11:
+  sdf_path: "package://assembly_world/model/bumper/model.sdf"
+  pose: {'frame_id': 'dunnage_1', 'position':{'x': '1.250', 'y': '0.922', 'z': '1.166'}, 'orientation':{'R': '0.606', 'P': '0.000', 'Y': '3.141'}}
+
+bumper_12:
+  sdf_path: "package://assembly_world/model/bumper/model.sdf"
+  pose: {'frame_id': 'dunnage_1', 'position':{'x': '1.250', 'y': '1.372', 'z': '1.166'}, 'orientation':{'R': '0.606', 'P': '0.000', 'Y': '3.141'}}
+
+bumper_13:
+  sdf_path: "package://assembly_world/model/bumper/model.sdf"
+  pose: {'frame_id': 'dunnage_1', 'position':{'x': '1.250', 'y': '1.822', 'z': '1.166'}, 'orientation':{'R': '0.606', 'P': '0.000', 'Y': '3.141'}}
+
+bumper_14:
+  sdf_path: "package://assembly_world/model/bumper/model.sdf"
+  pose: {'frame_id': 'dunnage_1', 'position':{'x': '1.250', 'y': '2.272', 'z': '1.166'}, 'orientation':{'R': '0.606', 'P': '0.000', 'Y': '3.141'}}
+
+rack_assembly_0:
+  sdf_path: "package://assembly_world/model/rack_assembly/model.sdf"
+  pose: {'frame_id': 'world', 'position':{'x': '-3.0', 'y': '4.0', 'z': '0.0'}, 'orientation':{'R': '0.0', 'P': '0.0', 'Y': '0.000'}}
+
+chain_rack_00:
+  sdf_path: "package://assembly_world/model/chain_rack/model.sdf"
+  pose: {'frame_id': 'rack_assembly_0', 'position':{'x': '0.125', 'y': '0.250', 'z': '0.335'}, 'orientation':{'R': '1.570', 'P': '0.0', 'Y': '0.000'}}
+
+chain_rack_01:
+  sdf_path: "package://assembly_world/model/chain_rack/model.sdf"
+  pose: {'frame_id': 'rack_assembly_0', 'position':{'x': '0.125', 'y': '0.250', 'z': '0.958'}, 'orientation':{'R': '1.570', 'P': '0.0', 'Y': '0.000'}}
+
+chain_rack_02:
+  sdf_path: "package://assembly_world/model/chain_rack/model.sdf"
+  pose: {'frame_id': 'rack_assembly_0', 'position':{'x': '0.125', 'y': '0.250', 'z': '1.581'}, 'orientation':{'R': '1.570', 'P': '0.0', 'Y': '0.000'}}
+
+chain_rack_03:
+  sdf_path: "package://assembly_world/model/chain_rack/model.sdf"
+  pose: {'frame_id': 'rack_assembly_0', 'position':{'x': '0.125', 'y': '0.250', 'z': '2.204'}, 'orientation':{'R': '1.570', 'P': '0.0', 'Y': '0.000'}}
+
+chain_rack_04:
+  sdf_path: "package://assembly_world/model/chain_rack/model.sdf"
+  pose: {'frame_id': 'rack_assembly_0', 'position':{'x': '0.125', 'y': '0.250', 'z': '2.827'}, 'orientation':{'R': '1.570', 'P': '0.0', 'Y': '0.000'}}
+
+
+bumper_20:
+  sdf_path: "package://assembly_world/model/bumper/model.sdf"
+  pose: {'frame_id': 'chain_rack_01', 'position':{'x': '0.000', 'y': '0.350', 'z': '0.400'}, 'orientation':{'R': '-1.570', 'P': '0.000', 'Y': '0.000'}}
+
+bumper_21:
+  sdf_path: "package://assembly_world/model/bumper/model.sdf"
+  pose: {'frame_id': 'chain_rack_02', 'position':{'x': '0.000', 'y': '0.350', 'z': '0.400'}, 'orientation':{'R': '-1.570', 'P': '0.000', 'Y': '0.000'}}
+
+bumper_22:
+  sdf_path: "package://assembly_world/model/bumper/model.sdf"
+  pose: {'frame_id': 'chain_rack_03', 'position':{'x': '0.000', 'y': '0.350', 'z': '0.400'}, 'orientation':{'R': '-1.570', 'P': '0.000', 'Y': '0.000'}}

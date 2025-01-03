@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="chain_rack">
+  
+    <pose>0 0 0 0 0 0</pose>
+    
+    <static>true</static>
+    
+    <link name="chain_rack">
+    
+      <inertial>
+        <mass>16.588</mass>
+        <inertia> 
+          <ixx>0.43848</ixx>					
+          <ixy>-2.9717E-15</ixy>
+          <ixz>6.2768E-16</ixz>
+          <iyy>4.8999</iyy>
+          <iyz>-0.01581</iyz> 
+          <izz>5.079</izz>
+        </inertia>
+      </inertial>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://chain_rack/chain_rack.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://chain_rack/chain_rack.STL</uri>
+          </mesh>
+        </geometry>
+
+
+        <material>
+          <!-- RGBA format: R G B A (each from 0.0 to 1.0) -->
+          <ambient>204 204 204 1.0</ambient>
+          <diffuse>204 204 204 1.0</diffuse>
+          <specular>0.0 0.0 0.0 1.0</specular>
+          <emissive>0.0 0.0 0.0 1.0</emissive>
+        </material>
+
+      </visual>
+      
+    </link>
+    
+  </model>
+</sdf>

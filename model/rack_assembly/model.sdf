@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="rack_assembly">
+  
+    <pose>0 0 0 0 0 0</pose>
+    
+    <static>true</static>
+    
+    <link name="rack_assembly">
+    
+      <inertial>
+        <mass>264.42</mass>
+        <inertia> 
+          <ixx>922.28</ixx>
+          <ixy>4.006</ixy>					
+          <ixz>-1.0078</ixz>
+          <iyy>356.82</iyy>
+          <iyz>-31.407</iyz> 
+          <izz>1217.7</izz>
+        </inertia>
+      </inertial>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://rack_assembly/rack_assembly.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://rack_assembly/rack_assembly.STL</uri>
+          </mesh>
+        </geometry>
+
+        <material>
+          <!-- RGBA format: R G B A (each from 0.0 to 1.0) -->
+          <ambient>46 61 73 1.0</ambient>
+          <diffuse>46 61 73 1.0</diffuse>
+          <specular>0.0 0.0 0.0 1.0</specular>
+          <emissive>0.0 0.0 0.0 1.0</emissive>
+        </material>     
+
+      </visual>
+      
+
+
+
+    </link>
+    
+  </model>
+</sdf>

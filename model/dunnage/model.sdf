@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="dunnage">
+  
+    <pose>0 0 0 0 0 0</pose>
+    
+    <static>true</static>
+    
+    <link name="dunnage">
+    
+      <inertial>
+        <mass>123.12</mass>
+        <inertia> 
+          <ixx>49.14</ixx>
+          <ixy>-0.000010912</ixy>
+          <ixz>-0.0009583</ixz>
+          <iyy>104.51</iyy>
+          <iyz>-0.1616</iyz> 
+          <izz>55.629</izz>
+        </inertia>
+      </inertial>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://dunnage/dunnage.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://dunnage/dunnage.STL</uri>
+          </mesh>
+        </geometry>
+
+        <material>
+          <!-- RGBA format: R G B A (each from 0.0 to 1.0) -->
+          <ambient>131 100 72 1.0</ambient>
+          <diffuse>131 100 72 1.0</diffuse>
+          <specular>0.0 0.0 0.0 1.0</specular>
+          <emissive>0.0 0.0 0.0 1.0</emissive>
+        </material>
+
+      </visual>
+      
+
+
+    </link>
+    
+  </model>
+</sdf>
